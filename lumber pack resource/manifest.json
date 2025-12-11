@@ -1,0 +1,20 @@
+{
+   "format_version": 2,
+   "header": {
+      "description": "Texture for lumber pack by Lohahola",
+      "name": "Wood pack §c[V1.0.0]",
+      "uuid": "ba1c487a-a898-4f5a-8020-140a25219f79",
+      "version": [1, 0, 0],
+      "min_engine_version": [1, 13, 0]
+   },
+   "modules": [
+      {
+         "type": "resources",
+         "uuid": "81508c84-d6fc-40e3-9d89-3761679c5a7a",
+         "version": [2, 4, 0]
+      }
+   ],
+   "metadata": {
+      "product_type": "addon"
+   }
+}
