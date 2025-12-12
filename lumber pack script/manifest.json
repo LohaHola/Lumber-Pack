@@ -3,7 +3,7 @@
    "header": {
       "description": "Made by LohaHola. This addon adds wood capitator functionality for all logs in MCPE 1.21+ along with custom log models that shrink based on log size.",
       "name": "Lumber Pack §c[V1.1.0]",
-      "uuid": "dd03ff24-89c7-48a0-8149-0415a508ef79",
+      "uuid": "dd03ff24-89c7-48a0-8149-0419a798ef79",
       "version": [1, 1, 0],
       "min_engine_version": [1, 20, 80]
    },
@@ -12,13 +12,13 @@
          "description": "?",
          "type": "script",
          "language": "javascript",
-         "uuid": "37d914c7-bd0d-4b52-8ec6-9a1399779b6f",
+         "uuid": "37d914c7-bd0d-4b52-8ec6-9a1999779b6f",
          "version": [1, 1, 0],
          "entry": "scripts/tree_capitator/main.js"
       },
       {
          "type": "data",
-         "uuid": "fc8f82ed-11a5-4abe-ab3a-c39b42089979",
+         "uuid": "fc8f82ed-11a5-4abe-ab3a-c99b42089979",
          "version": [1, 1, 0]
       }
    ],
@@ -27,7 +27,7 @@
    },
    "dependencies": [
       {
-         "uuid": "ba1c487a-a898-4f5a-8020-140a25219f79",
+         "uuid": "ba1c487a-a898-4f5a-8020-140a29219f79",
          "version": [1, 1, 0]
       },
       {
