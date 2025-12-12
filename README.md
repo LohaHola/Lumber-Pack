@@ -1,6 +1,6 @@
 # 🌳 Lumber Pack BY LohaHola- Advanced Tree Chopping Addon for Minecraft PE
 
-**Versi:** 1.0.0  
+**Versi:** 1.1.0  
 **Kompatibilitas:** Minecraft PE 1.20.80+  
 **Tipe:** Behavior Pack Dengan Resource Pack
 
@@ -59,7 +59,7 @@ Fase 1 [5s timeout]
 2. **Seluruh pohon otomatis hancur:**
    - Semua log dihancurkan recursively
    - Leaves dalam radius dinamis juga hancur
-   - Batching mencegah lag (max 3 blok/cycle)
+   - Batching mencegah lag (max 8 blok/cycle)
 3. Blok yang jatuh:
    - Log vanilla (minecraft:oak_log, dll)
    - Sticks dan lainnya dari leaves (natural drop)
@@ -222,11 +222,8 @@ Map<string, string>
 
 ## 📝 Changelog
 
-### **Version 1.0.0** (December 12, 2025)
-- ✅ Initial release
-- ✅ 4-phase progression system
-- ✅ Cascade mundur with auto-revert
-- ✅ Target switch protection
+### **Version 1.1.0** (December 12, 2025)
+- ✅ Change the batching cycle maximum destroy to 8 from 3
 - ✅ Multi-player support
 - ✅ Durability + Unbreaking
 - ✅ Recursive tree destruction
