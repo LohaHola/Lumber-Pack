@@ -9,7 +9,7 @@
  *   1. Deteksi custom:log tag + state 4
  *   2. Gunakan generator untuk mengolah banyak blok tanpa freeze
  *   3. Ekspansi dinamis: cari log tetangga, destroy leaves dengan delay
- *   4. Batching: max 3 blok per cycle, queue ulang jika lebih
+ *   4. Batching: max 8 blok per cycle, queue ulang jika lebih
  * 
  * ═══════════════════════════════════════════════════════════════════════════
  */
@@ -138,8 +138,8 @@ world.afterEvents.playerBreakBlock.subscribe(({ brokenBlockPermutation, block, p
                }
             }
 
-            // Batching: Max 3 blok per cycle, jika lebih queue ulang
-            if (++count >= 3) {
+            // Batching: Max 8 blok per cycle, jika lebih queue ulang
+            if (++count >= 8) {
                system.runTimeout(() => system.runJob(prosesLogTetangga(nx, ny, nz, 0)), 20);
                return;
             } else {
